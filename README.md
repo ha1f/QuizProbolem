@@ -15,10 +15,10 @@ class ViewController: UIViewController {
 }
 ```
 
-- [ ] textColor
-- [ ] text
+- [x] textColor
+- [x] text
 - [ ] label
-- [ ] redColor()
+- [x] redColor()
 - [ ] number
 
 
@@ -26,22 +26,31 @@ class ViewController: UIViewController {
 
 ![hole](https://pbs.twimg.com/profile_images/1375053626/_____.jpg)
 
-1. iOSアプリのライフサイクルの中で、 `     ` 関数は、画面がロードされた時に呼ばれる。
-1. 変数を参照可能な範囲を `     ` と呼ぶ
-1. UITableViewを使うときは、 `     ` と `     ` というプロトコルを実装する必要がある
+1. iOSアプリのライフサイクルの中で、 `ViewDidLoad()` 関数は、画面がロードされた時に呼ばれる。
+1. 変数を参照可能な範囲を `スコープ` と呼ぶ
+1. UITableViewを使うときは、 `TableView` と `     ` というプロトコルを実装する必要がある
 
 #### 3.変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcと標準出力に出力してください
 
 ![10](http://searchengineland.com/figz/wp-content/seloads/2011/07/10-years-in-search-300x300.jpg)
 
 ```swift
-// ここに記入
+var hoge: Int
+hoge = //任意の値
+if hoge >= 10 {
+    print("a")
+} else if hoge <= -10 {
+    print("b")
+} else {
+    print("c")
+}
 ```
 
 #### 4.Int?型の変数piyoを、Optional bindingをつかってアンラップして、標準出力に出力してください
 
 ```swift
-// ここに記入
+var puyo: Int?
+
 ```
 
 #### 5.Animalクラスをつくって、Animalクラスを継承したDogクラスを作ってください
@@ -49,7 +58,13 @@ class ViewController: UIViewController {
 ![animal](http://kingofwallpapers.com/animal/animal-007.jpg)
 
 ```swift
-// ここに記入
+class Animal {
+    // some process
+}
+
+class Dod: Animal {
+    // some process
+}
 ```
 
 
@@ -58,20 +73,21 @@ class ViewController: UIViewController {
 ![git](http://cdn-ak.f.st-hatena.com/images/fotolife/c/chocoken517/20160602/20160602004604.jpg)
 
 - [ ] git init
-- [ ] git add .
+- [x] git add .
 - [ ] git commit -m "first commit"
 - [ ] git push -u origin master
 
 #### 7.gitでいうプルリクエストってどういうこと？
 
 ```自由記述
-// ここに書いてね
+forkにてコピーしたリポジトリを編集後、オリジナルのリポジトリ作成者にプルリクエストを送り、編集したリポジトリのマージ依頼をすること。
 ```
 
 #### 8.構造体とクラスの違いはなんですか？一つ特徴をあげてください
 
 ```自由記述
-// ここに書いてね
+構造体はオブジェクトのメンバ変数を定義するもので、クラスはメンバ変数の他にメソッド等の機能を持たせることができる。
+また、クラスは継承をすることができるが、構造体はできない。
 ```
 
 #### 
