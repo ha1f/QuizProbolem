@@ -35,7 +35,7 @@ class ViewController: UIViewController {
 ![10](http://searchengineland.com/figz/wp-content/seloads/2011/07/10-years-in-search-300x300.jpg)
 
 ```swift
-// if hoge <= 10 {
+ if hoge <= 10 {
       println("a")
       }else if hoge<=-10 {
         println("b")
