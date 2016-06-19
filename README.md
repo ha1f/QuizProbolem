@@ -15,19 +15,19 @@ class ViewController: UIViewController {
 }
 ```
 
-- [ ] textColor
-- [ ] text
+- [x] textColor
+- [x] text
 - [ ] label
 - [ ] redColor()
-- [ ] number
+- [x] number
 
 
 #### 2.穴埋め
 
 ![hole](https://pbs.twimg.com/profile_images/1375053626/_____.jpg)
 
-1. iOSアプリのライフサイクルの中で、 `     ` 関数は、画面がロードされた時に呼ばれる。
-1. 変数を参照可能な範囲を `     ` と呼ぶ
+1. iOSアプリのライフサイクルの中で、 `loadView` 関数は、画面がロードされた時に呼ばれる。
+1. 変数を参照可能な範囲を `変数のスコープ` と呼ぶ
 1. UITableViewを使うときは、 `     ` と `     ` というプロトコルを実装する必要がある
 
 #### 3.変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcと標準出力に出力してください
@@ -36,13 +36,23 @@ class ViewController: UIViewController {
 
 ```swift
 // ここに記入
-```
+var hoge: Int = 0
+if hoge >= 10 {
+  print(a)
+}if else hoge <= -10 {
+  print(b)
+}else{
+  print(c)
+}
+
+
 
 #### 4.Int?型の変数piyoを、Optional bindingをつかってアンラップして、標準出力に出力してください
 
 ```swift
 // ここに記入
-```
+var piyo: Int = 0!
+
 
 #### 5.Animalクラスをつくって、Animalクラスを継承したDogクラスを作ってください
 
@@ -50,7 +60,10 @@ class ViewController: UIViewController {
 
 ```swift
 // ここに記入
-```
+class Animal{
+class Dog{
+}
+}
 
 
 #### 6.gitでステージングするときのコマンドはどれ？
@@ -59,19 +72,19 @@ class ViewController: UIViewController {
 
 - [ ] git init
 - [ ] git add .
-- [ ] git commit -m "first commit"
+- [x] git commit -m "first commit"
 - [ ] git push -u origin master
 
 #### 7.gitでいうプルリクエストってどういうこと？
 
 ```自由記述
 // ここに書いてね
-```
+他の人にGitの変更情報を送る
 
 #### 8.構造体とクラスの違いはなんですか？一つ特徴をあげてください
 
 ```自由記述
 // ここに書いてね
-```
+構造体は継承できないが、クラスは継承できる
 
 #### 
