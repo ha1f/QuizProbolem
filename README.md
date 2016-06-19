@@ -44,3 +44,12 @@ class ViewController: UIViewController {
 // ここに記入
 ```
 
+
+#### gitでステージングするときのコマンドはどれ？
+
+- [ ] git init
+- [ ] git add .
+- [ ] git commit -m "first commit"
+- [ ] git push -u origin master
+
+
