@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
 ![hole](https://pbs.twimg.com/profile_images/1375053626/_____.jpg)
 
-1. iOSアプリのライフサイクルの中で、Didviewload 関数は、画面がロードされた時に呼ばれる。
+1. iOSアプリのライフサイクルの中で、viewDidload 関数は、画面がロードされた時に呼ばれる。
 1. 変数を参照可能な範囲を変数のスコープと呼ぶ
 1. UITableViewを使うときは、 `     ` と `     ` というプロトコルを実装する必要がある
 
@@ -35,7 +35,8 @@ class ViewController: UIViewController {
 ![10](http://searchengineland.com/figz/wp-content/seloads/2011/07/10-years-in-search-300x300.jpg)
 
 ```swift
-// if hoge >= 10 {
+// 
+　if hoge >= 10 {
       var("a");
   }if else -10 >= hoge {
       var("b");
