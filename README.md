@@ -26,13 +26,13 @@ class ViewController: UIViewController {
 1. 変数を参照可能な範囲を `     ` と呼ぶ
 1. UITableViewを使うときは、 `     ` と `     ` というプロトコルを実装する必要がある
 
-#### 変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcと標準出力に出力してください
+#### 変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcとprintしてください
 
 ```swift
 // ここに記入
 ```
 
-#### Int?型の変数piyoを、Optional bindingをつかってアンラップして、標準出力に出力してください
+#### Int?型の変数piyoを、Optional bindingをつかってアンラップして、printしてください
 
 ```swift
 // ここに記入
