@@ -26,13 +26,13 @@ class ViewController: UIViewController {
 1. 変数を参照可能な範囲を `     ` と呼ぶ
 1. UITableViewを使うときは、 `     ` と `     ` というプロトコルを実装する必要がある
 
-#### 変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcとprintしてください
+#### 変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcと標準出力に出力してください
 
 ```swift
 // ここに記入
 ```
 
-#### Int?型の変数piyoを、Optional bindingをつかってアンラップして、printしてください
+#### Int?型の変数piyoを、Optional bindingをつかってアンラップして、標準出力に出力してください
 
 ```swift
 // ここに記入
@@ -52,4 +52,8 @@ class ViewController: UIViewController {
 - [ ] git commit -m "first commit"
 - [ ] git push -u origin master
 
+#### gitでいうプルリクエストってどういうこと？
+
+```自由記述
+```
 
