@@ -18,17 +18,17 @@ class ViewController: UIViewController {
 - [ ] textColor
 - [ ] text
 - [ ] label
-- [ ] redColor()
-- [ ] number
+- [x] redColor()
+- [x] number
 
 
 #### 2.穴埋め
 
 ![hole](https://pbs.twimg.com/profile_images/1375053626/_____.jpg)
 
-1. iOSアプリのライフサイクルの中で、 `     ` 関数は、画面がロードされた時に呼ばれる。
-1. 変数を参照可能な範囲を `     ` と呼ぶ
-1. UITableViewを使うときは、 `     ` と `     ` というプロトコルを実装する必要がある
+1. iOSアプリのライフサイクルの中で、 `   loadDidView  ` 関数は、画面がロードされた時に呼ばれる。
+1. 変数を参照可能な範囲を `  変数のスコープ   ` と呼ぶ
+1. UITableViewを使うときは、 ` @IBOutlet  ` と `  @IBAction   ` というプロトコルを実装する必要がある
 
 #### 3.変数hogeが10以上だったらa、-10以下だったらb、それ以外ならcと標準出力に出力してください
 
@@ -49,7 +49,8 @@ class ViewController: UIViewController {
 ![animal](http://kingofwallpapers.com/animal/animal-007.jpg)
 
 ```swift
-// ここに記入
+class Animal
+super
 ```
 
 
@@ -58,7 +59,7 @@ class ViewController: UIViewController {
 ![git](http://cdn-ak.f.st-hatena.com/images/fotolife/c/chocoken517/20160602/20160602004604.jpg)
 
 - [ ] git init
-- [ ] git add .
+- [x] git add .
 - [ ] git commit -m "first commit"
 - [ ] git push -u origin master
 
@@ -71,7 +72,8 @@ class ViewController: UIViewController {
 #### 8.構造体とクラスの違いはなんですか？一つ特徴をあげてください
 
 ```自由記述
-// ここに書いてね
+構造体は継承しない
+クラスは継承する
 ```
 
 #### 
